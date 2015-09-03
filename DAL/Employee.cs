@@ -13,8 +13,8 @@ namespace DAL
         public int Id { get; set; }
         public string Name { get; set; }
         public Nullable<decimal> Salary { get; set; }
-        public Nullable<int> DeptId { get; set; }
-        [ForeignKey("DeptId")]
+        public Nullable<int> DepartId { get; set; }
+        [ForeignKey("DepartId")]
         public Department department { get; set; }
 
     }

@@ -55,9 +55,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{55abcf62-6090-4a6a-a4f1-7ad129858f4f}</Project>
       <Name>DAL</Name>
